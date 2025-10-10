@@ -27,7 +27,7 @@ A production-minded Streamlit app for **cybersecurity incident analytics** with:
   - Optional **Sentence-Transformers + FAISS** for semantic search
   - Lightweight, rules-based **playbook generator** from nearest incidents
 
-- **Easy deployment**
+- **Deployment**
   - Local: `streamlit run`
   - Public link (dev): Cloudflare Tunnel
   - Managed: Render (free tier) or Cloud Run (serverless)
