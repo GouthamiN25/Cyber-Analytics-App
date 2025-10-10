@@ -1,8 +1,60 @@
-## AI-Powered SOC Workbench
-## -Threat Analytics, ML & RAG (Streamlit)
+# AI-Powered SOC Workbench — Threat Analytics, ML & RAG (Streamlit)
 
-This project implements a Retrieval-Augmented Generation (RAG) workflow to turn past incident data into actionable guidance. We first retrieve similar historical incidents to the analyst’s query using a TF-IDF cosine retriever (default, zero external dependencies). Optionally, you can enable semantic retrieval with Sentence-Transformers embeddings + FAISS for more robust matching across paraphrases. The retrieved incidents are surfaced in the UI and fed to a lightweight rule-based playbook generator, and can be piped into an LLM to produce an auto-generated, context-aware runbook.
+A production-minded Streamlit app for **cybersecurity incident analytics** with:
+- 📊 Dashboards: trends, distributions, day×hour heatmaps, Pareto views
+- 🤖 ML: severity classification, high/critical flag (optional), MTTR regression
+- 🧠 RAG: retrieve similar incidents (TF-IDF baseline; optional embeddings + FAISS)
+- 🧰 Playbooks: auto-suggested actions from retrieved incidents
+- ☁️ One-click deployment: local, Cloudflare Tunnel, Render/Cloud Run
 
-# how to enable semantic RAG
-pip install sentence-transformers faiss-cpu
+<p align="center">
+  <img src="assets/screenshot-ui.png" alt="App UI screenshot" width="80%">
+</p>
+
+> Screenshot above is from the working app (replace with your own path).  
+> Sample CSV expected: `merged_cyber_incidents.csv`.
+
+---
+
+## ✨ Features
+
+- **Exploratory analytics**
+  - Daily volume, Threat Type/Severity/Status bars
+  - Incidents heatmap (Day of Week × Hour)
+  - Top departments; High/Critical% by department
+  - Financial impact hist & breach size vs. cost scatter
+
+- **ML models**
+  - Multiclass **severity** classifier (Logistic Regression)
+  - Binary **high/critical** classifier (skips gracefully if only one class present)
+  - **MTTR regression** (Ridge), trained when enough valid rows exist
+
+- **RAG**
+  - Baseline TF-IDF retriever (no external deps)
+  - Optional **Sentence-Transformers + FAISS** for semantic search
+  - Lightweight, rules-based **playbook generator** from nearest incidents
+
+- **Easy deployment**
+  - Local: `streamlit run`
+  - Public link (dev): Cloudflare Tunnel
+  - Managed: Render (free tier) or Cloud Run (serverless)
+
+---
+
+## 🗂️ Repository structure
+
+.
+├── streamlit_cyber_app.py # Streamlit UI (filters, charts, predictions, RAG)
+├── requirements.txt # Python deps
+├── Procfile # For Render/Railway/Fly
+├── notebooks/
+│ └── Cybersecurity_Analysis.ipynb # (optional) analysis/training notebook
+├── data/
+│ └── merged_cyber_incidents.csv # (sample or your merged dataset; optional, can upload in UI)
+├── models/ # (optional) saved *.joblib artifacts
+├── assets/
+│ ├── screenshot-ui.png # UI screenshot for README
+│ └── pipeline.png # (optional) export of the pipeline diagram below
+└── README.md
+
 
