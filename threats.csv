@@ -1,0 +1,6 @@
+threat_id,name,type,severity
+1,Phishing,Social Engineering,3
+2,Malware,Malicious Code,6
+3,Ransomware,Malicious Code,10
+4,DoS Attack,Denial of Service,8
+5,Insider Threat,Insider,9

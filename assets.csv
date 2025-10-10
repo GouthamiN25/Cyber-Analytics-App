@@ -1,0 +1,51 @@
+asset_id,name,type,owner_department,vulnerability_score
+1,Fieldseismologist Database 1,Database,Databaseadministrator,1
+2,"Engineer,materials Database 2",Workstation,Databaseadministrator,7
+3,Purchasingmanager Server 3,Server,Miningengineer,5
+4,Planninganddevelopmentsurveyor Server 4,Database,Miningengineer,2
+5,Planninganddevelopmentsurveyor Database 5,Database,Purchasingmanager,1
+6,Fieldseismologist Cloud Storage 6,Cloud Storage,Databaseadministrator,9
+7,Fieldseismologist Server 7,Workstation,Miningengineer,1
+8,"Administrator,CivilService Database 8",Cloud Storage,Planninganddevelopmentsurveyor,6
+9,Databaseadministrator Server 9,Workstation,"Engineer,materials",1
+10,Electricalengineer Database 10,Server,"Physicist,medical",1
+11,Themeparkmanager Database 11,Database,Miningengineer,1
+12,Miningengineer Workstation 12,Database,Clinicalresearchassociate,2
+13,Databaseadministrator Cloud Storage 13,Database,Themeparkmanager,3
+14,Consultingcivilengineer Cloud Storage 14,Database,Miningengineer,1
+15,Childpsychotherapist Server 15,Workstation,Childpsychotherapist,1
+16,Databaseadministrator Workstation 16,Server,Purchasingmanager,3
+17,"Physicist,medical Server 17",Cloud Storage,"Engineer,materials",4
+18,Purchasingmanager Server 18,Server,Consultingcivilengineer,10
+19,"Engineer,materials Database 19",Workstation,Consultingcivilengineer,3
+20,Childpsychotherapist Server 20,Workstation,Databaseadministrator,5
+21,Themeparkmanager Database 21,Cloud Storage,Purchasingmanager,3
+22,Electricalengineer Cloud Storage 22,Database,"Engineer,materials",4
+23,Electricalengineer Database 23,Cloud Storage,Miningengineer,4
+24,Consultingcivilengineer Workstation 24,Cloud Storage,"Physicist,medical",6
+25,Gamesdeveloper Cloud Storage 25,Workstation,Electricalengineer,1
+26,"Physicist,medical Cloud Storage 26",Workstation,Consultingcivilengineer,10
+27,"Physicist,medical Cloud Storage 27",Cloud Storage,Themeparkmanager,3
+28,"Administrator,CivilService Server 28",Server,"Physicist,medical",1
+29,Fieldseismologist Cloud Storage 29,Database,"Engineer,materials",3
+30,Electricalengineer Cloud Storage 30,Workstation,Purchasingmanager,2
+31,Planninganddevelopmentsurveyor Server 31,Server,"Engineer,materials",4
+32,Clinicalresearchassociate Cloud Storage 32,Workstation,Databaseadministrator,4
+33,Electricalengineer Cloud Storage 33,Workstation,Miningengineer,1
+34,Planninganddevelopmentsurveyor Cloud Storage 34,Server,Planninganddevelopmentsurveyor,4
+35,Gamesdeveloper Cloud Storage 35,Workstation,Consultingcivilengineer,5
+36,Consultingcivilengineer Server 36,Cloud Storage,Consultingcivilengineer,4
+37,Fieldseismologist Workstation 37,Database,Gamesdeveloper,3
+38,Themeparkmanager Database 38,Database,Childpsychotherapist,2
+39,Purchasingmanager Database 39,Cloud Storage,Clinicalresearchassociate,5
+40,"Physicist,medical Database 40",Database,Consultingcivilengineer,3
+41,Gamesdeveloper Database 41,Server,"Administrator,CivilService",1
+42,Consultingcivilengineer Workstation 42,Database,Fieldseismologist,4
+43,Electricalengineer Workstation 43,Workstation,Childpsychotherapist,6
+44,Purchasingmanager Server 44,Database,Fieldseismologist,1
+45,Purchasingmanager Database 45,Database,"Engineer,materials",6
+46,Fieldseismologist Cloud Storage 46,Database,"Administrator,CivilService",5
+47,Databaseadministrator Database 47,Workstation,"Engineer,materials",1
+48,Planninganddevelopmentsurveyor Cloud Storage 48,Server,Gamesdeveloper,1
+49,Electricalengineer Cloud Storage 49,Cloud Storage,Electricalengineer,3
+50,Childpsychotherapist Server 50,Workstation,Planninganddevelopmentsurveyor,4

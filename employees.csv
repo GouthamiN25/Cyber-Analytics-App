@@ -1,0 +1,16 @@
+employee_id,name,department,security_training
+1,John Nelson,Consultingcivilengineer,Pending
+2,Angela Sanchez,Gamesdeveloper,Completed
+3,Veronica Fitzgerald,Purchasingmanager,Completed
+4,Christopher Miller,"Engineer,materials",Completed
+5,Megan Garcia,"Physicist,medical",Completed
+6,Jeremy Allen,Databaseadministrator,Pending
+7,Amy Cox,Electricalengineer,Completed
+8,Alyssa Carpenter,"Administrator,CivilService",Pending
+9,Emily Soto,Themeparkmanager,Pending
+10,Eric Perez,Childpsychotherapist,Completed
+11,Shaun Ortega,Clinicalresearchassociate,Completed
+12,Tony Williams,"Engineer,materials",Completed
+13,Anita Wright,Fieldseismologist,Completed
+14,Ashley Lester,Planninganddevelopmentsurveyor,Completed
+15,Amy Lawrence,Miningengineer,Completed
