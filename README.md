@@ -1,4 +1,4 @@
-# AI-Powered SOC Workbench — Threat Analytics, ML & RAG 
+## AI-Powered SOC Workbench — Threat Analytics, ML & RAG 
 
 A production-minded Streamlit app for **cybersecurity incident analytics** with:
 - 📊 Dashboards: trends, distributions, day×hour heatmaps, Pareto views
