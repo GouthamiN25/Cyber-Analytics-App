@@ -7,13 +7,6 @@ A production-minded Streamlit app for **cybersecurity incident analytics** with:
 - 🧰 Playbooks: auto-suggested actions from retrieved incidents
 - ☁️ One-click deployment: local, Cloudflare Tunnel, Render/Cloud Run
 
-<p align="center">
-  <img src="assets/screenshot-ui.png" alt="App UI screenshot" width="80%">
-</p>
-
-> Screenshot above is from the working app (replace with your own path).  
-> Sample CSV expected: `merged_cyber_incidents.csv`.
-
 ---
 
 ## ✨ Features
