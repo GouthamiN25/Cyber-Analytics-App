@@ -1,5 +1,9 @@
 ## AI-Powered — Cyber Analytics
 
+
+<img width="1920" height="1080" alt="hero_banner" src="https://github.com/user-attachments/assets/8a2102e1-d134-47de-8fef-704ffab9be77" />
+
+
 A production-minded Streamlit app for **cybersecurity incident analytics** with:
 - 📊 **Dashboards:** trends, distributions, day×hour heatmaps, Pareto views
 - 🤖 **ML:** severity classification, high/critical flag (optional), MTTR regression
