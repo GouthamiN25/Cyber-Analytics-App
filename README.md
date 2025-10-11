@@ -1,11 +1,11 @@
-## AI-Powered SOC Workbench — Cyber Analytics, ML & RAG 
+## AI-Powered — Cyber Analytics
 
 A production-minded Streamlit app for **cybersecurity incident analytics** with:
-- 📊 Dashboards: trends, distributions, day×hour heatmaps, Pareto views
-- 🤖 ML: severity classification, high/critical flag (optional), MTTR regression
-- 🧠 RAG: retrieve similar incidents (TF-IDF baseline; optional embeddings + FAISS)
-- 🧰 Playbooks: auto-suggested actions from retrieved incidents
-- ☁️ One-click deployment: local, Cloudflare Tunnel, Render/Cloud Run
+- 📊 **Dashboards:** trends, distributions, day×hour heatmaps, Pareto views
+- 🤖 **ML:** severity classification, high/critical flag (optional), MTTR regression
+- 🧠 **RAG:** retrieve similar incidents (TF-IDF baseline; optional embeddings + FAISS)
+- 🧰 **Playbooks:** auto-suggested actions from retrieved incidents
+- ☁️ **Deployment:** local, Cloudflare Tunnel, Render/Cloud Run
 
 ---
 
