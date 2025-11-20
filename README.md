@@ -16,8 +16,6 @@ A production-minded Streamlit app for **cybersecurity incident analytics** with:
   
 - ☁️ **Deployment:** local, Cloudflare Tunnel, Render/Cloud Run
 
----
-
 ## ✨ Features
 
 - **Exploratory analytics**
