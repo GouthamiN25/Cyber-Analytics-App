@@ -1,4 +1,5 @@
 ## AI-Powered — Cyber Analytics
+Production-minded Streamlit app for cybersecurity incident analytics with dashboards, ML models (severity & MTTR), baseline RAG search, and deployment config (Procfile, Render/Cloud Run).
 
 
 <img width="1920" height="1080" alt="hero_banner" src="https://github.com/user-attachments/assets/8a2102e1-d134-47de-8fef-704ffab9be77" />
